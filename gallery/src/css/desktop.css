@@ -1,0 +1,91 @@
+@media only screen and (min-width: 1180px) {
+
+
+    /* header */
+
+    header {
+        margin-bottom: 3%;
+    }
+
+    header a {
+        font-size: 12px;
+    }
+
+    /* display */
+
+    main {
+        display: flex;
+        position: static;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    /* image */
+
+    .image {
+        height: 600px;
+    }
+
+    .image img {
+        width: auto;
+        height: 100%;
+    }
+
+    .image-text {
+        height: fit-content;
+        font-size: 56px;
+        line-height: 64px;
+        letter-spacing: 2px;
+        padding: 0 3rem 3rem 3rem;
+        right: -50%;
+        top: -2px;
+    }
+
+
+    #artist-big {
+        right: -30%;
+        bottom: -5%;
+        top: auto;
+    }
+
+    /* description */
+
+
+    .image-info {
+        width: 50%;
+        height: 100%;
+    }
+
+    .description {
+        width: 100%;
+        
+    }
+
+    .description p, .description a {
+        width: 100%;
+        margin-left: 6rem;
+    }
+
+    .image-date {
+        top: -10rem;
+        right: 0;
+        font-size: 200px;
+    }
+
+    .description {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    /* footer */
+
+    footer {
+        padding-top: 5rem;
+    }
+
+    .footer-right {
+        width: 80px;
+    }
+
+}

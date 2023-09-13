@@ -1,0 +1,79 @@
+@media only screen and (min-width: 700px) {
+
+    .body {
+        padding: 2.5rem;
+    }
+
+    header {
+        margin-bottom: 2rem;
+    }
+
+    header a {
+        cursor: pointer;
+    }
+
+    /* display image */
+
+    .image {
+        flex-direction: row;
+    }
+
+    .view-image {
+        bottom: 1rem;
+        top: auto;
+        height: fit-content;
+    }
+
+    .image-text {
+        height: fit-content;
+        font-size: 56px;
+        line-height: 64px;
+        letter-spacing: 2px;
+        padding: 0 0 1rem 3rem;
+        right: 0;
+        top: -2px;
+        left: auto;
+    }
+
+    picture {
+        width: 65%;
+    }
+
+    #artist-big {
+        display: block;
+        height: auto;
+        width: 18%;
+        position: absolute;
+        right: 12%;
+        top: 60%;
+        z-index: 2;
+    }
+
+    /* description */
+
+    .image-info img {
+        display: none;
+    }
+
+    .image-date {
+        position: absolute;
+        right: auto;
+        top: -10rem;
+        font-size: 250px;
+    }
+
+    .description {
+        width: 70%;
+        margin: auto;
+    }
+
+    .image-info p {
+        font-size: 17px;
+        line-height: 28px;
+        color: #7D7D7D;
+        font-weight: 500;
+        text-align: left;
+        margin-bottom: 3rem;
+    }
+
+}
