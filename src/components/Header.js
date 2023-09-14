@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import ".././css/display.css"
+import "../css/display.css"
 
 
 export default function Header() {
